@@ -83,7 +83,7 @@ class AssetCompressHelper extends AppHelper {
  *
  * @return void
  */
-	public function __construct($options) {
+	public function __construct($iniFile = null) {
 		if (empty($iniFile)) {
 			$iniFile = CONFIGS . 'asset_compress.ini';
 		}
